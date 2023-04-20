@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-    String Expected_Success_Message = "You are now logged in as Alexey Rogozhin.";
+    String Expected_Success_Message = "You are now logged in as First Last.";
     String Expected_Error_Message = "Wrong password or the account is disabled, or does not exist";
     Logger logger = Logger.getLogger(LoginTest.class);
 
